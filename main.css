@@ -13,6 +13,8 @@ body {
 }
 .gallery {
   margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -40,6 +42,7 @@ p {
    text-align: center;  
    font-family: 'Aclonica';
    font-size: 20px;
+   color: White;
 }
 .Contact {
    font-family: 'Aclonica';
