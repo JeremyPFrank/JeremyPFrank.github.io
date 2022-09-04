@@ -5,6 +5,25 @@ html, body {
   font-weight: 300;
   line-height: 1.5;
 }
+body {
+  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
 h1 {
    color: Red;
    font-family: 'Aclonica';
