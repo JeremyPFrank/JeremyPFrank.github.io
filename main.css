@@ -25,6 +25,8 @@ body {
 
 .gallery-item .thumbnail {
   border: 5px solid #fff;
+  height: 20px;
+  width: auto;
 }
 h1 {
    color: Red;
