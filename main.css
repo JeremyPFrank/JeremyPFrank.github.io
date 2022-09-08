@@ -8,19 +8,24 @@ html, body {
 }
 .parallax {
   background-image: url("FrankJ-4932x.jpg");
-  min-height: 700px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .parallax2 {
   background-image: url("FrankJ-4965x.jpg");
-  min-height: 700px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 body {
 
@@ -46,8 +51,8 @@ h1 {
    color: Red;
    font-family: 'Brush Script MT';
    text-align: center;
-   font-size: 80px;
-   margin-top: 300px;
+   font-size: 180px;
+   margin-top: 250px;
 }
 h5 {
    font-family: 'Aclonica';
