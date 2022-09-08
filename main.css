@@ -8,7 +8,15 @@ html, body {
 }
 .parallax {
   background-image: url("FrankJ-4932x.jpg");
-  min-height: 500px;
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("FrankJ-4965x.jpg");
+  min-height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,9 +44,10 @@ body {
 }
 h1 {
    color: Red;
-   font-family: 'Aclonica';
+   font-family: 'Brush Script MT';
    text-align: center;
    font-size: 80px;
+   margin-top: 300px;
 }
 h5 {
    font-family: 'Aclonica';
