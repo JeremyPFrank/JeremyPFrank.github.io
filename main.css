@@ -5,6 +5,10 @@ html, body {
   font-weight: 300;
   line-height: 1.5;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUz3HXxUg3fkpt7jqpZG4EnN9eL7ep5gTew&usqp=CAU");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 .parallax {
