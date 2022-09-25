@@ -7,7 +7,7 @@ html, body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQypRRiSPWvwwq4Y-ERBKXQLBy0jqEcQrlJdg&usqp=CAU");
   min-height: 1000px;
 }
-/*.parallax {
+.parallax {
   background-image: url("FrankJ-4932x.jpg");
   min-height: 800px;
   background-attachment: fixed;
@@ -29,7 +29,7 @@ html, body {
   margin-left: 0px;
   margin-right: 0px;
 }
-*/
+
 body {
   
 }
