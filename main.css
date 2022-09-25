@@ -5,7 +5,7 @@ html, body {
   font-weight: 300;
   line-height: 1.5;
 }
-.parallax {
+/*.parallax {
   background-image: url("FrankJ-4932x.jpg");
   min-height: 800px;
   background-attachment: fixed;
@@ -15,6 +15,7 @@ html, body {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+
 }
 .parallax2 {
   background-image: url("FrankJ-4965x.jpg");
@@ -26,9 +27,9 @@ html, body {
   margin-left: 0px;
   margin-right: 0px;
 }
+*/
 body {
-  backgroud-image: url("FrankJ-4932x.jpg");
-  min-height: 800px;
+  
 }
 .gallery {
   margin-top: 20px;
