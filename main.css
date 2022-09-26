@@ -4,12 +4,14 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+}
+html {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNxb1j6VFf9qusMSulWPGq6UE2Xo89WY6ag&usqp=CAU");
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .parallax {
   background-image: url("FrankJ-4932x.jpg");
