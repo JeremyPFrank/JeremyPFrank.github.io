@@ -8,6 +8,16 @@
 <embed src="Reflections 2022.m4a" autostart="true" loop="true"
 width="2" height="0">
 </embed>
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" 
+class="closer"
+onclick="closeNav()">&times;</a>
+	<a href="index.html">Home</a>
+	<a href="resume.html">Resume</a>
+	<a href="photo.html">Photos</a>
+	<a href="contact.html">Contact</a>
+</div>
+<div id="main">	
 <div class="parallax">
 <h1>Jeremy Frank</h1>
 	</div>	
@@ -15,13 +25,20 @@ width="2" height="0">
 <div class="parallax2">
 	<h1>Welcome!</h1>
 	</div>	
-<nav>
-  <ul>
-  <li><a href="index.html">Home</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="photo.html">Photos</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>	
+<span onclick="openNav()">&#9776; open</span>
+</div>
+<script>
+	function openNav(){
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.7)";
+	}
+	function closeNav(){
+		document.getElementById("mySidenav").style.width="0";
+		document.getElementById("main").style.marginLeft="0";
+		document.body.style.backgroundColor = "white"
+	}
+</script>
 </body>
 </html>
+
