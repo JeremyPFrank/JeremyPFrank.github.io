@@ -5,6 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
 <body>
+	
+<span style="color:white;font-size:40px"onclick="openNav()">&#9776; Navigation</span>
+
+
+	<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" 
+class="closer"
+onclick="closeNav()">&times;</a>
+	<a href="index.html">Home</a>
+	<a href="resume.html">Resume</a>
+	<a href="photo.html">Photos</a>
+	<a href="contact.html">Contact</a>
+</div>
+
 <h1>Jeremy Frank Photos</h1>
 <nav>
   <ul>
@@ -150,5 +164,18 @@ width="2" height="0">
 <img class="thumbnail" src="firework.JPEG">
 	 </figure>
 </div>
+<script>
+	function openNav(){
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav(){
+		document.getElementById("mySidenav").style.width="0";
+		document.getElementById("main").style.marginLeft="0";
+		document.body.style.backgroundColor = "#13140F";
+		
+	}
+</script>
 </body>
 </html>
